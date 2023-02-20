@@ -1,0 +1,24 @@
+{
+  "name": "va-style",
+  "version": "1.0.1-pre.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/istick15/va-style.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dot-prop-immutable": "^2.1.1",
+    "typescript": "^4.9.5"
+  }
+}
