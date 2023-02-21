@@ -1,7 +1,7 @@
 import { get } from "dot-prop-immutable";
 import { StyleSpecification } from "../interface";
 
-const renderLayers = (styles: StyleSpecification, metadataKey: string) => {
+function renderLayers(styles: StyleSpecification, metadataKey: string) {
     const { layers } = styles;
 
     let newRender: any[] = [];

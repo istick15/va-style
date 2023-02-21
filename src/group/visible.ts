@@ -2,12 +2,12 @@ import { set } from "dot-prop-immutable";
 import { groupRender, StyleSpecification } from "../interface";
 import { renderLayers } from "../render";
 
-const visibleGroup = (
+function visibleGroup(
     styles: StyleSpecification,
     groupId: string,
     type: "visible" | "none",
     groupKey?: string
-) => {
+) {
     const key = groupKey ? groupKey : "vallaris:group"
     const { layers } = styles;
     const newLayers = layers.map((l) => {
@@ -32,7 +32,7 @@ const visibleGroup = (
     return newStyle;
 };
 
-const renderGroup = (styles: StyleSpecification, groupIds: string[], groupKey?: string) => {
+function renderGroup(styles: StyleSpecification, groupIds: string[], groupKey?: string) {
     const key = groupKey ? groupKey : "vallaris:group"
     let groups: groupRender[] = [];
     const { layers } = styles;

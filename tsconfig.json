@@ -1,16 +1,15 @@
 {
     "compilerOptions": {
-      "module": "CommonJS",
-      "target": "ES2016",
+      "module":"CommonJS",
+      "target": "ES2019",
       "sourceMap": true,
       "outDir": "./dist",
       "noImplicitAny": true,
       "declaration": true,
       "moduleResolution": "node",
       "esModuleInterop": true,
-      "allowJs": true,
-      "allowSyntheticDefaultImports": true,
-      "strict": false,
+      "skipLibCheck":true,
+      "forceConsistentCasingInFileNames":true 
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]
