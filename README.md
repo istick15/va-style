@@ -25,7 +25,7 @@ yarn add va-style
 ## Usage
 
 ```javascript
-import vastyle, { visibleGroup, renderLayers } from "va-style";
+import { visibleGroup, renderLayers } from "va-style";
 
 // Visible layers in group id airport
 const newStyle = visibleGroup(yourStyle, "airport", "visible");

@@ -6,10 +6,11 @@
       "outDir": "./dist",
       "noImplicitAny": true,
       "declaration": true,
-      "strictNullChecks":true,
-      "strict": true,
       "moduleResolution": "node",
       "esModuleInterop": true,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": false,
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]
