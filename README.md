@@ -1,6 +1,6 @@
 ![Vallaris Logo](https://v2k-dev.vallarismaps.com/core/api/managements/1.0/files/63f347fcb8e142c8f4b5cfd0/view)
 
-[![npm version](https://badge.fury.io/js/va-style.png)](https://badge.fury.io/js/va-style)
+[![npm version](https://badge.fury.io/js/va-style.svg)](https://badge.fury.io/js/va-style)
 
 ## Vallaris Maps
 
