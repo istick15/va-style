@@ -1,7 +1,7 @@
 {
   "name": "va-style",
   "version": "1.0.1-pre.2",
-  "description": "",
+  "description": "Simplify package for Vallaris style",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
