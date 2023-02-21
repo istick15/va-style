@@ -1,4 +1,4 @@
-export interface ILayers {
+interface ILayers {
     id: string;
     source: string;
     "source-layer": string;
@@ -11,12 +11,7 @@ export interface ILayers {
     metadata?: any;
 }
 
-export interface groupRender {
-    groupId: string;
-    layers: ILayers[] | [];
-}
-
-export declare type StyleSpecification = {
+interface StyleSpecification {
     version: 8;
     name?: string;
     metadata?: unknown;
@@ -31,4 +26,19 @@ export declare type StyleSpecification = {
     glyphs?: string;
     transition?: any;
     layers: Array<ILayers>;
-};
+}
+
+
+interface IvaStyle {
+    renderGroup: (styles: StyleSpecification, groupIds: string[], groupKey?: string) => void;
+    visibleGroup: (styles: StyleSpecification,
+        groupId: string,
+        type: "visible" | "none",
+        groupKey?: string) => void;
+    renderLayers: (styles: StyleSpecification, metadataKey: string) => void
+}
+
+declare const vaStyle: IvaStyle;
+
+export = vaStyle;
+
