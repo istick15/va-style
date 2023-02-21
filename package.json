@@ -4,6 +4,7 @@
   "description": "Simplify package for Vallaris style",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://vallarismaps.com",
   "files": [
     "/dist"
   ],
